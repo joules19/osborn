@@ -60,7 +60,7 @@ export default function Header() {
             </span>
             <a
               href={`tel:${COMPANY.phone.replace(/\s/g, "")}`}
-              className="flex items-center gap-2 text-[#0057A8] font-bold text-lg hover:text-[#27AAE1] transition-colors"
+              className="flex items-center gap-2 text-[#0057A8] font-bold text-sm sm:text-lg hover:text-[#27AAE1] transition-colors"
               aria-label={`Call us on ${COMPANY.phone}`}
             >
               <Phone size={18} aria-hidden="true" />
